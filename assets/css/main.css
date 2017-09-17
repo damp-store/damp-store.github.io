@@ -1819,9 +1819,9 @@ background:
 			position: absolute;
 			top: 0;
 			left: 0;
-			width: 100%;
+			width: 1498px;
 			background: url("images/bg01.png");
-			background-size: 100% 100%;
+			background-size: % 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
@@ -2155,7 +2155,7 @@ background:
 		/* Basic */
 
 			body {
-				min-width: 960px;
+				min-width: 1489px;
 				font-size: 11pt;
 			}
 
@@ -2886,12 +2886,13 @@ h2.major {
 }
 
 .tovar{
-height: 400px;
+height: 400px; 
+ transition: 0.5s ease-in-out;
 }
 .tovar:hover{
   right: 0;
   opacity: 1;
-  transition: 0.5s ease-in-out;
+
 }
 
 #slider {
@@ -3049,3 +3050,48 @@ input {
 
 }
 
+.d6 {background: #f39c12!important;}
+.d6 form {
+  height: 42px!important;
+}
+.d6 input {
+  height: 100%!important;
+  width: 0!important;
+  padding: 0 42px 0 15px!important;
+  border: none!important;
+  border-bottom: 2px solid transparent!important;
+  outline: none!important;
+  background: transparent!important;
+  transition: .4s cubic-bezier(0, 0.8, 0, 1)!important;
+  position: absolute!important;
+  top: 0!important;
+  right: 0!important;
+  z-index: 2!important;
+}
+.d6 input:focus {
+  width: 300px!important;
+  z-index: 1!important;
+  border-bottom: 2px solid #f39c12!important;
+}
+.d6 button {
+  background: #f39c12!important;
+  border: none!important;
+  height: 42px!important;
+  width: 42px!important;
+  position: absolute!important;
+  top: 0!important;
+  right: 0!important;
+  cursor: pointer!important;
+}
+.d6 button:before {
+  content: "\f002"!important;
+  font-family: FontAwesome!important;
+  font-size: 16px!important;
+  color: #000!important;
+}
+
+form {
+  position: relative!important;
+  width: 300px!important;
+  margin: 0 auto !important;
+}
