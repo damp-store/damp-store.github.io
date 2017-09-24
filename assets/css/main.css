@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 
-
+.
 .main-random-collumn {padding:5px 0 130px 0;}
 .main-random-collumn > li {width:33.33%; float:left;}
 .main-rand-item {
@@ -1187,7 +1187,7 @@ h6 {font-size:18px;}
 	input, textarea, select {
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #5d5d5d;
+		
 	}
 
 	strong, b {
@@ -1270,42 +1270,36 @@ h6 {font-size:18px;}
 		border: 0;
 		padding: 0.75em 1em;
 		font-size: 1em;
-		border-radius: 5px;
-		border: solid 1px #dddddd;
+		border-radius: 1px;
+		border: solid 1px #000;
 		background: #fff;
 		width: 100%;
 	}
 
-		form input[type=text]:focus,
-		form input[type=email]:focus,
-		form input[type=password]:focus,
-		form select:focus,
-		form textarea:focus {
-			box-shadow: inset 0px 0px 1px 1px #43bff0;
-		}
+	
 
 	form textarea {
 		height: 15em;
 	}
 
 	form .formerize-placeholder {
-		color: #555 !important;
+		color: #000 !important;
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: #000 !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: #000 !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: #000 !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: #000 !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -2627,16 +2621,17 @@ background:
 
 
 	.menu-main {
-    list-style: none;
+
+
 	display: block;
-    margin: 0 auto ;
+    margin:  auto 0;
     padding: 20px 0 0 0;
-    text-align: center;
-   
  background: white;
+ text-align: center;
 }
-.menu-main li {display: inline-block;}
+.menu-main li {display: inline-block; margin-left: }
 .menu-main li:after {
+
   content: "|";
   color: #f39c12;
   display: inline-block;
@@ -2794,6 +2789,7 @@ h2.major {
 				}
 .product-wrap {
 
+
   width: 300px;
   text-align: center;
   background: white;
@@ -2801,11 +2797,14 @@ h2.major {
 .product-image {
   position: relative;
   overflow: hidden;
+  border:3px solid #f39c12;
+  transition: .5s ease-in-out;
 }
 .product-image a {display: block;}
 .product-image img {
   display: block;
   width: 100%;
+
 }
 .shadow {
   background: rgba(0,0,0,0.3);
@@ -2880,6 +2879,8 @@ h2.major {
   font-size: 18px;
 }
 .price {
+	  transition: .5s ease-in-out;
+
   font-weight: bold;
   font-size: 19px;
   color: #f39c12;
@@ -2935,11 +2936,11 @@ height: 400px;
 .s12-hot{
 
 	  font-size:30px !important;
-	    margin: 20px 0 40px 540px;
+	    margin: 1px 0 11px 540px;
 }
 
 .s12-new{
-	margin: 20px 0 40px 535px;
+	margin: 1px 0 11px 535px;
 }
 
 .s12-tov{
@@ -3050,48 +3051,75 @@ input {
 
 }
 
-.d6 {background: #f39c12!important;}
-.d6 form {
-  height: 42px!important;
+.d1 {background: #f39c12 !important;  border-radius: 5px !important;padding-top: 2px; line-height: 15px;}
+.d1 input {
+  width: 100% !important;
+  height: 42px !important;
+  padding-left: 10px !important;
+  border: 2px solid #f39c12 !important;
+  border-radius: 5px !important;
+  outline: none !important
+  background: #f39c12 !important;
+  color: #000 !important;
 }
-.d6 input {
-  height: 100%!important;
-  width: 0!important;
-  padding: 0 42px 0 15px!important;
-  border: none!important;
-  border-bottom: 2px solid transparent!important;
-  outline: none!important;
-  background: transparent!important;
-  transition: .4s cubic-bezier(0, 0.8, 0, 1)!important;
-  position: absolute!important;
-  top: 0!important;
-  right: 0!important;
-  z-index: 2!important;
+.d1 button {
+  position: absolute !important; 
+  top: 0 !important;
+  right: 0px !important;
+  width: 5px !important;
+  height: 42px !important;
+  border: none !important;
+  background: #f39c12 !important;
+  border-radius: 0 5px 5px 0 !important;
+  cursor: pointer !important;
 }
-.d6 input:focus {
-  width: 300px!important;
-  z-index: 1!important;
-  border-bottom: 2px solid #f39c12!important;
+.d1 button:before {
+  content: "\f002" !important;
+  font-family: FontAwesome !important;
+  font-size: 16px !important;
+  color: #fff !important;
+  margin-left: -7px;
 }
-.d6 button {
-  background: #f39c12!important;
-  border: none!important;
-  height: 42px!important;
-  width: 42px!important;
-  position: absolute!important;
-  top: 0!important;
-  right: 0!important;
-  cursor: pointer!important;
-}
-.d6 button:before {
-  content: "\f002"!important;
-  font-family: FontAwesome!important;
-  font-size: 16px!important;
-  color: #000!important;
+* {box-sizing: border-box;}
+body{margin: 0;}
+form {
+  position: relative;
+margin-bottom: -500px;
+width: 225px;
+  margin: 0 auto;
 }
 
-form {
-  position: relative!important;
-  width: 300px!important;
-  margin: 0 auto !important;
+.detail-link {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background: #f39c12;
+  border-radius: 3px;
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%,-50%) rotate(90deg);
+  transition: .4s ease-in-out;
 }
+.detail-link:before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  color: white;
+  font-size: 20px;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  transform: rotate(-90deg);
+  transition: .3s ease-in-out;
+}
+.product-wrap:hover .detail-link {
+  opacity: 1;
+  top: 50%;
+
+
+}
+
+
+
