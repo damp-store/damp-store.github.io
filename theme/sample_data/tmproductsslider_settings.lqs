@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS `ps_tmproductsslider_settings`;
+CREATE TABLE `ps_tmproductsslider_settings` (
+  `id_slider` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `id_shop` int(10) unsigned NOT NULL,
+  `slider_width` int(10) unsigned DEFAULT '1170',
+  `slider_type` varchar(255) DEFAULT 'fade',
+  `slider_speed` int(10) unsigned DEFAULT '500',
+  `slider_pause` int(10) unsigned DEFAULT '3000',
+  `slider_loop` tinyint(1) unsigned NOT NULL DEFAULT '1',
+  `slider_pause_h` tinyint(1) unsigned NOT NULL DEFAULT '1',
+  `slider_pager` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `slider_controls` tinyint(1) unsigned NOT NULL DEFAULT '1',
+  `slider_auto_controls` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id_slider`,`id_shop`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmproductsslider_settings */
+INSERT INTO `ps_tmproductsslider_settings` VALUES
+('1','1','10000','fade','500','3000','1','1','0','1','0');

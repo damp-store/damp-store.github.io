@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `ps_tmcategoryproducts`;
+CREATE TABLE `ps_tmcategoryproducts` (
+  `id_tab` int(11) NOT NULL AUTO_INCREMENT,
+  `category` int(11) NOT NULL,
+  `num` int(11) NOT NULL,
+  `mode` int(11) NOT NULL,
+  `status` int(11) NOT NULL,
+  `use_carousel` int(11) NOT NULL,
+  PRIMARY KEY (`id_tab`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmcategoryproducts */
+INSERT INTO `ps_tmcategoryproducts` VALUES
+('1','27','4','1','1','1');

@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS `ps_tmmediaparallax_layouts_lang`;
+CREATE TABLE `ps_tmmediaparallax_layouts_lang` (
+  `id_layout` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmmediaparallax_layouts_lang */
+INSERT INTO `ps_tmmediaparallax_layouts_lang` VALUES
+('2','1',''),
+('2','2',''),
+('2','3',''),
+('2','4',''),
+('2','5','');

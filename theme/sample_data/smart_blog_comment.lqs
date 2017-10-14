@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS `ps_smart_blog_comment`;
+CREATE TABLE `ps_smart_blog_comment` (
+  `id_smart_blog_comment` int(11) NOT NULL AUTO_INCREMENT,
+  `id_parent` int(11) DEFAULT NULL,
+  `id_customer` int(11) DEFAULT NULL,
+  `id_post` int(11) DEFAULT NULL,
+  `name` varchar(256) DEFAULT NULL,
+  `email` varchar(90) DEFAULT NULL,
+  `website` varchar(128) DEFAULT NULL,
+  `content` text,
+  `active` int(11) DEFAULT NULL,
+  `created` datetime NOT NULL,
+  PRIMARY KEY (`id_smart_blog_comment`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_smart_blog_comment */
+INSERT INTO `ps_smart_blog_comment` VALUES
+('2','0','0','4','John Doe','admin@admin.com','#','\"The success of your business would solely depend on you. The only thing you can rely on is your power to achieve your goal\" – very true to life statement.','1','2014-10-15 10:24:25'),
+('3','2','0','4','Anna Lee','admin@admin.com','#','I thought I am just a dreamer, but now I know how to become a doer. That’s cool, appreciate it!','1','2014-10-15 10:25:56'),
+('4','2','0','4','Fred Crue','admin@admin.com','#','Completely agree with the author. Modern businessmen should involve young people, introduce brands to them, socialize… Looks like a fresh product market!','1','2014-10-15 10:26:57'),
+('5','0','0','4','Anny Dawson','admin@admin.com','#','The author did a great job with all these research work. Really valuable information, thank you!','1','2014-10-15 10:28:33'),
+('6','4','0','4','Nick Nickelson','admin@admin.com','#','That’s awesome! Future belongs to youngsters, so businessmen can’t ignore their needs in any case.','1','2014-10-15 10:29:22');

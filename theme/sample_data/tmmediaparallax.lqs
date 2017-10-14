@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS `ps_tmmediaparallax`;
+CREATE TABLE `ps_tmmediaparallax` (
+  `id_item` int(11) NOT NULL AUTO_INCREMENT,
+  `id_shop` int(11) NOT NULL,
+  `selector` varchar(100) DEFAULT NULL,
+  `inverse` int(11) NOT NULL,
+  `offset` int(11) NOT NULL,
+  `speed` float DEFAULT NULL,
+  `fade` int(11) NOT NULL,
+  `full_width` int(11) NOT NULL,
+  `active` int(11) NOT NULL,
+  PRIMARY KEY (`id_item`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmmediaparallax */
+INSERT INTO `ps_tmmediaparallax` VALUES
+('1','1','.parallax-box-1','1','0','0','0','0','1');

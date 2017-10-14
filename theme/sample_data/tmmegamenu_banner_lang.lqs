@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS `ps_tmmegamenu_banner_lang`;
+CREATE TABLE `ps_tmmegamenu_banner_lang` (
+  `id_item` int(10) unsigned NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `url` varchar(100) NOT NULL,
+  `image` varchar(100) NOT NULL,
+  `public_title` varchar(100) DEFAULT NULL,
+  `description` text NOT NULL,
+  PRIMARY KEY (`id_item`,`id_lang`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmmegamenu_banner_lang */
+INSERT INTO `ps_tmmegamenu_banner_lang` VALUES
+('1','1','Banner3','index.php?id_category=26&controller=category','138838fb1009e5c1c283b06b20c1194afd49d80e_banner-top1.jpg',NULL,'<h2>50%<span>off</span></h2>\r\n<p><button type=\"button\">Shop Now!</button></p>'),
+('1','2','Banner3','index.php?id_category=26&controller=category','1a7f50d39534347e6b36a9d55589bb4610104b56_banner-top1.jpg',NULL,'<h2>50%<span>off</span></h2>\r\n<p><button type=\"button\">Shop Now!</button></p>'),
+('1','3','Banner3','index.php?id_category=26&controller=category','455c7d1e258d0df16c560c5274c84a33fb843bba_banner-top1.jpg',NULL,'<h2>50%<span>off</span></h2>\r\n<p><button type=\"button\">Shop Now!</button></p>'),
+('1','4','Banner3','index.php?id_category=26&controller=category','b87592866295de9d1512b70c61ec9891517a3335_banner-top1.jpg',NULL,'<h2>50%<span>off</span></h2>\r\n<p><button type=\"button\">Shop Now!</button></p>'),
+('1','5','Banner3','index.php?id_category=26&controller=category','c3f4a31df6dad53731d11cd8d0f75d3e176a84fb_banner-top1.jpg',NULL,'<h2>50%<span>off</span></h2>\r\n<p><button type=\"button\">Shop Now!</button></p>');

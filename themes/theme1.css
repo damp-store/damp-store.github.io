@@ -1,26 +1,21 @@
+@import url("assets/css/font-awesome.min.css");
+
 h1
 {
-color: #fff;
-font: bold 20px Arial;
+color: #f39c12 !important;
+font: bold 20px 'Source Sans Pro';
 }
-.cart
-{
-width: 250px;
-height: 70px;
-position: absolute;
-top: 5px;
-left: 10px;
-padding: 10px;
-font: normal 10px Arial;
-color: #fff;
+.cart{
+
 }
 .prices
 {
-margin: 10px;
-font: normal 16px Arial;
-border-radius: 5px;
-background: #fff;
+content: "\f06e";
+font: normal 20px 'Source Sans Pro';
+border-radius: 3px;
+background: #f39c12;
 text-align: center;
 padding: 8px;
-color: #fff;
+color: #f39c12 !important;
+
 }

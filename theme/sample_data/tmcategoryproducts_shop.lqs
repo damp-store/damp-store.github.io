@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `ps_tmcategoryproducts_shop`;
+CREATE TABLE `ps_tmcategoryproducts_shop` (
+  `id_tab` int(11) NOT NULL,
+  `id_shop` int(11) NOT NULL,
+  PRIMARY KEY (`id_tab`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmcategoryproducts_shop */
+INSERT INTO `ps_tmcategoryproducts_shop` VALUES
+('1','1');

@@ -1,0 +1,11 @@
+ul.product_list .product-image-container .product_img_link {
+  position: relative;
+  padding: 0 !important;
+}
+
+ul.product_list .product-image-container .product_img_link img + img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

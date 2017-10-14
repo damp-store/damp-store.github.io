@@ -6,7 +6,7 @@
  **************************************/
 
 var local = 	{
-			"basket_is_empty" : "К", 
+			"basket_is_empty" : "", 
 			"name" : "Название",
 			"price" : "Цена",
 			"all" : "Всего",
@@ -14,8 +14,8 @@ var local = 	{
 			"basket" : "корзина",
 			"num" : "кол-во",
 			"send" : "Спасибо за покупку!\nМы свяжемся с Вами в ближайшее время",
-			"goods" : "Товаров",
-			"amount" : "на сумму"
+			"goods" : "",
+			"amount" : ""
 			};
  
 function WICard(obj, plugins)
@@ -148,7 +148,7 @@ function WICard(obj, plugins)
 				}
 				
 		// *** //		 		
-		this.widjetObj.html(local.goods + " " + num + " " + local.amount + " " + sum + " Руб.");
+		this.widjetObj.html(local.goods + " " + num + " ");
 		localStorage.setItem(this.cardID, JSON.stringify(this.DATA));
 		}
 	this.clearBasket = function()

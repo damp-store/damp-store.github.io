@@ -1,0 +1,648 @@
+"CMS Page ID";"CMS Category ID";Position;"Active (0/1)";Indexation;"Meta tile";"Meta description";"Meta keywords";Content;"URL rewritten"
+1;1;0;1;0;Delivery;"Our terms and conditions of delivery";"conditions, delivery, delay, shipment, pack";"<h1 style=""text-align:center;"">Shipping &amp;<br />delivery page</h1>
+<div class=""border_bottom"" style=""text-align:center;"">Hello and welcome to shipping and delivery page! Here you can read some details about a nifty little lifecycle of your order's journey from the time you place your order to your new treasures arriving at your doorstep. At first you choose the product you like. Then you put into your shopping cart and pass the checkout process in a few clicks. Our store offers several payment and delivery methods, so you have an opportunity to choose which one is the most convenient for you.</div>
+<h2 style=""text-align:center;"">Delivery methods</h2>
+<ul class=""list-2 border_bottom""><li class=""fa fa-male"">
+<h3>Cash &amp; carry</h3>
+<p>If you choose cash and carry method, please note that this means that you should pay cash for the goods you purchase and carry them away yourself. In this case we do not offer credit accounts and delivery service. This is a common policy for cash and carry delivery method. Not too convenient for you? Please read on and get to know what else delivery methods do we provide. Please be sure that we have foreseen different situations and offer other delivery methods that may fit you best.</p>
+</li>
+<li class=""fa fa-car"">
+<h3>Pick-up from a Post parcel point in your city</h3>
+<p>A parcel point is an easy and convenient way to receive items in your city. Shop in our online store, then selects the parcel point as the delivery type and choose the preferred pick-up location. The item will be in the parcel point selected by you the next day after 4 p.m., or some time later in some areas. The Parcel Points are available in central locations and during the opening hours of shops, also on weekends. More than half customers pick up their parcel already on the day of its delivery.</p>
+</li>
+<li class=""fa fa-home"">
+<h3>Shipment to the door</h3>
+<p>What happens when you choose shipment to the door option? Our store takes responsibility for dealing with all the tasks involved in moving goods from the manufacturing plant to the buyer/consignee's door. It is our responsibility to insure the goods and absorb all costs and risks including the payment of duty and fees. In other words, the selling cost of goods includes all expenses inclusive of taxes to reach the goods at the door step of your premises.</p>
+</li>
+<li class=""fa fa-globe"">
+<h3>International delivery</h3>
+<p>International delivery is regulated by EXW, Incoterms 2010. Any dates quoted for delivery of the goods are approximate only and the store shall not be deemed to be in delay in delivery of the goods unless actual delivery of goods occurs later than four weeks from the quoted approximate delivery date and having received the Buyer’s written notification. The buyer shall comply with all laws governing the importation of the goods into the country of destination.</p>
+</li>
+</ul><p></p>";delivery
+2;1;1;1;0;"Legal Notice";"Legal notice";"notice, legal, credits";"<h1 style=""text-align:left;"">Legal</h1>
+<h3 style=""text-align:left;"">Credits</h3>
+<p class=""border_bottom2"" style=""text-align:left;"">Unless otherwise indicated on the face of the invoice, all prices are quoted on a per pound basis. Buyer is responsible for any tax or government charges imposed upon the sale or transfer of the Product. Buyer shall not have any right to set off any amounts due hereunder against any amounts which may become payable to Seller under any other agreement.</p>
+<ul class=""list-accordion""><li>
+<h3 class=""accordion_current"">How can I pay for my order?</h3>
+<p class=""accordion_content"">We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.<br /><br /></p>
+</li>
+<li>
+<h3 class=""accordion_current"">Can I track my order?</h3>
+<p class=""accordion_content"">Yes, you can! After placing your order you will receive an order confirmation via email. Each order starts production 24 hours after your order is placed. Within 72 hours of you placing your order, you will receive an expected delivery date. When the order ships, you will receive another email with the tracking number and a link to trace the order online with the carrier.<br /><br /></p>
+</li>
+</ul><p><br /><br />Concept and production:</p>
+<p>This Web site was created using <a href=""http://www.prestashop.com"">PrestaShop</a>™ open-source software.</p>";legal-notice
+3;1;2;1;0;"Terms and conditions of use";"Our terms and conditions of use";"conditions, terms, use, sell";"<h1 class=""page-heading"">Terms and conditions of use</h1>
+<h3 class=""page-subheading"">General information</h3>
+<p class=""bottom-indent"">Welcome to our Privacy Policy page! When you use our store services, you trust us with your information. This Privacy Policy is meant to help you understand what data we collect, why we collect it, and what we do with it. When you share information with us, we can make our services even better for you. For instance, we can show you more relevant search results and ads, help you connect with people or to make sharing with others quicker and easier. As you use our services, we want you to be clear how we’re using information and the ways in which you can protect your privacy. This is important; we hope you will take time to read it carefully. Remember, you can find controls to manage your information and protect your privacy and security. We’ve tried to keep it as simple as possible.</p>
+<h3 class=""page-subheading"">Right to access, correct and delete data and to object to data processing</h3>
+<p class=""bottom-indent"">Our customers have the right to access, correct and delete personal data relating to them, and to object to the processing of such data, by addressing a written request, at any time. The Company makes every effort to put in place suitable precautions to safeguard the security and privacy of personal data, and to prevent it from being altered, corrupted, destroyed or accessed by unauthorized third parties. However, the Company does not control each and every risk related to the use of the Internet, and therefore warns the Site users of the potential risks involved in the functioning and use of the Internet. The Site may include links to other web sites or other internet sources. As the Company cannot control these web sites and external sources, the Company cannot be held responsible for the provision or display of these web sites and external sources, and may not be held liable for the content, advertising, products, services or any other material available on or from these web sites or external sources.</p>
+<h3 class=""page-subheading"">Management of personal data</h3>
+<p class=""bottom-indent"">You can view or edit your personal data online for many of our services. You can also make choices about our collection and use of your data. How you can access or control your personal data will depend on which services you use. You can choose whether you wish to receive promotional communications from our store by email, SMS, physical mail, and telephone. If you receive promotional email or SMS messages from us and would like to opt out, you can do so by following the directions in that message. You can also make choices about the receipt of promotional email, telephone calls, and postal mail by visiting and signing into Company Promotional Communications Manager, which allows you to update contact information, manage contact preferences, opt out of email subscriptions, and choose whether to share your contact information with our partners. These choices do not apply to mandatory service communications that are part of certain store services.</p>
+<h3 class=""page-subheading"">Information We Collect</h3>
+<p class=""bottom-indent"">Our store collects data to operate effectively and provide you the best experiences with our services. You provide some of this data directly, such as when you create a personal account. We get some of it by recording how you interact with our services by, for example, using technologies like cookies, and receiving error reports or usage data from software running on your device. We also obtain data from third parties (including other companies). For example, we supplement the data we collect by purchasing demographic data from other companies. We also use services from other companies to help us determine a location based on your IP address in order to customize certain services to your location. The data we collect depends on the services and features you use.</p>
+<h3 class=""page-subheading"">How We Use Your Information</h3>
+<p class=""bottom-indent"">Our store uses the data we collect for three basic purposes: to operate our business and provide (including improving and personalizing) the services we offer, to send communications, including promotional communications, and to display advertising. In carrying out these purposes, we combine data we collect through the various store services you use to give you a more seamless, consistent and personalized experience. However, to enhance privacy, we have built in technological and procedural safeguards designed to prevent certain data combinations. For example, we store data we collect from you when you are unauthenticated (not signed in) separately from any account information that directly identifies you, such as your name, email address or phone number.</p>
+<h3 class=""page-subheading"">Sharing Your Information</h3>
+<p class=""bottom-indent"">We share your personal data with your consent or as necessary to complete any transaction or provide any service you have requested or authorized. For example, we share your content with third parties when you tell us to do so. When you provide payment data to make a purchase, we will share payment data with banks and other entities that process payment transactions or provide other financial services, and for fraud prevention and credit risk reduction. In addition, we share personal data among our controlled affiliates and subsidiaries. We also share personal data with vendors or agents working on our behalf for the purposes described in this statement. For example, companies we've hired to provide customer service support or assist in protecting and securing our systems and services may need access to personal data in order to provide those functions. In such cases, these companies must abide by our data privacy and security requirements and are not allowed to use personal data they receive from us for any other purpose. We may also disclose personal data as part of a corporate transaction such as a merger or sale of assets.</p>";terms-and-conditions-of-use
+4;1;3;1;0;"About us";"Learn more about us";"about us, informations";"<h1 style=""text-align:center;"">About</h1>
+<h3 style=""text-align:center;"">Catering to your requirements, handling your needs with care</h3>
+<p style=""text-align:center;"">Our store is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience. Forget about struggling to do everything at once: taking care of the family, running your business, walking your dog, cleaning the house, doing the shopping, etc. Purchase the goods you need every day or just like in a few clicks or taps, depending on the device you use to access the Internet. We work to make your life more enjoyable.<br /><br /><br /></p>
+<div class=""border_bottom2"">
+<ul class=""animateCount row""><li class=""col-xs-4""><span class=""count"">14500</span>
+<h3>Products available</h3>
+</li>
+<li class=""col-xs-4""><span class=""count"">81</span>%
+<h3>Clients come back</h3>
+</li>
+<li class=""col-xs-4""><span class=""count"">10</span>mln
+<h3>Site members</h3>
+</li>
+</ul></div>
+<h1 style=""text-align:center;"">Store events</h1>
+<div class=""border_bottom2"">
+<ul class=""row list-4""><li class=""col-xs-4 fa fa-search"">
+<h3>For convenience of choice</h3>
+<p>We think about the convenience of your choice. Our products are supplied with star rating that should help hesitant buyers to take a decision. What’s more, you can search our site if you know exactly what you are looking for or use a bunch of different filters that will considerably save your time and efforts.</p>
+</li>
+<li class=""col-xs-4 fa fa-car"">
+<h3>Delivery products to all regions</h3>
+<p>We deliver our goods worldwide. No matter where you live, your order will be shipped in time and delivered right to your door or to any other location you have stated. The packages are handled with utmost care, so the ordered products will be handed to you safe and sound, just like you expect them to be.</p>
+</li>
+<li class=""col-xs-4 fa fa-thumbs-up"">
+<h3>The highest quality of products</h3>
+<p>We guarantee the highest quality of the products we sell. Several decades of successful operation and millions of happy customers let us feel certain about that. Besides, all items we sell pass thorough quality control, so no characteristics mismatch can escape the eye of our professionals.</p>
+</li>
+</ul></div>
+<h1 style=""text-align:center;"">Our team</h1>
+<div class=""border_bottom2"">
+<ul class=""row list-4""><li class=""col-xs-3""><img src=""img/cms/our_team_1.jpg"" alt="""" height=""269"" width=""270"" /><h3>ROBERT JOHNSON</h3>
+<p>Senior salesman with 15 years of experience. He knows everything about the products he offers.</p>
+</li>
+<li class=""col-xs-3""><img src=""img/cms/our_team_2.jpg"" alt="""" height=""269"" width=""270"" /><h3>JESSICA PRISTON</h3>
+<p>Mega positive shop assistant always ready to help you make the right choice and charm you with a smile.</p>
+</li>
+<li class=""col-xs-3""><img src=""img/cms/our_team_3.jpg"" alt="""" height=""269"" width=""270"" /><h3>SAM KROMSTAIN</h3>
+<p>Wholesale manager. Contact him if you want to buy a batch of the products offered at our store.</p>
+</li>
+<li class=""col-xs-3""><img src=""img/cms/our_team_4.jpg"" alt="""" height=""269"" width=""270"" /><h3>EDNA BARTON</h3>
+<p>Quality control manager. Her mission is to check the products we ship and settle quality issues if any.</p>
+</li>
+</ul></div>
+<h1 style=""text-align:center;"">Testimonials</h1>
+<ul id=""testimonials""><li class=""material-design-ico icon material-design-google125"">
+<p>Guys, you rock! Made a purchase at your store recently. The order has been shipped and delivered on time. The quality is superb! The price is quite reasonable. Told all my friends about your excellent service and the variety of choice. I think I’ll be your loyal customer in future as well. I wish your store many more years of prosperity.</p>
+<h3>Mary Taba</h3>
+</li>
+<li class=""material-design-ico icon material-design-google125"">
+<p>Thank you again and again! I have experienced the fastest support ever. My order arrived on my door step the following day. Your team is always, friendly and very helpful. You managed to exceed my expectations!</p>
+<h3>Virginia Ubert</h3>
+</li>
+<li class=""material-design-ico icon material-design-google125"">
+<p>Hi, guys! I want to thank you for my very very quick delivery and I just love my order… Your company efficient services and customer care are second to none! I am very happy! I will surely share my experience with my friends!</p>
+<h3>SAM KROMSTAIN</h3>
+</li>
+<li class=""material-design-ico icon material-design-google125"">
+<p>Having the distressing experience with some online shops before decided to say ‘’THANK YOU” to all personnel of this store. You are not only friendly, but deliver really good products in the shortest possible terms. In a word, I am absolutely happy with my purchase and the service. Everything was perfect!</p>
+<h3>EDNA BARTON</h3>
+</li>
+</ul>";about-us
+5;1;4;1;0;"Secure payment";"Our secure payment mean";"secure payment, ssl, visa, mastercard, paypal";"<h1 class=""page-heading bottom-indent"">Secure payment</h1>
+<p></p>
+<p><br /><br /><br /></p>
+<h2 style=""text-align:center;"">Payment methods</h2>
+<ul class=""list-2""><li class=""fa fa-credit-card"">
+<h3>Visa &amp; mastercard</h3>
+<p>Payment is the final step of the purchasing process. It should never be an obstacle. Our store pays special attention to this point as making payment in a secured environment is a primary concern of individuals. With e-commerce growth, and more recently the m-commerce evolution, it is essential to choose a payment solution optimized to Smartphone’s and tablets. It is equally important to choose the solution which offers a specific selection of credit cards that are most popular in the merchants target markets. We take Visa &amp; MasterCard as they are widely used by cyber customers.</p>
+</li>
+<li class=""fa fa-pencil-square-o"">
+<h3>Noncash payment</h3>
+<p>Noncash is a method of paying for goods and services that does not involve the exchange of cash. Examples of noncash payment instruments include checks and credit cards. In the United States, most noncash payments are made using checks, credit cards, debit cards, and the electronic payment system called the automated clearinghouse (ACH) — collectively referred to as retail noncash payments. Just choose which of the listed noncash payment methods is more convenient for you.</p>
+</li>
+<li class=""fa fa-money"">
+<h3>Cash payment</h3>
+<p>Cash payment is a form of liquid funds given by a consumer to a provider of goods or services (our store in the given case) as compensation for receiving the products we provide. In most domestic business transactions, a cash payment will typically be made in the currency of the country where the transaction takes place, either in paper currency, in coins or in an appropriate combination. Keeping cash on hand can be a great way to avoid overspending. You can choose exactly how much cash you're willing to spend and stop spending when you're out of cash.</p>
+</li>
+</ul>";secure-payment
+6;1;5;1;0;"Pages configuration";;;"<div class=""block"">
+<h4>Pages configuration</h4>
+<div>
+<h3>1. Position section of the modules list.</h3>
+<p>After activating all necessary modules you need to assign them to correct positions. In PrestaShop admin panel from the top menu select Modules &gt; Positions. To place module in the required position just drag it to the position section of the modules list.</p>
+<table class=""table table-bordered table-hover""><tbody><tr><th>Module name</th><th>Position</th><th>Order</th></tr><tr><td>TM HTML Content v1.1</td>
+<td>displayRightColumn</td>
+<td>1</td>
+</tr><tr><td>Блок многоуровневой навигации v2.1.3</td>
+<td>displayRightColumn</td>
+<td>2</td>
+</tr><tr><td>Блок списков избранного v1.3.1</td>
+<td>displayRightColumn</td>
+<td>3</td>
+</tr><tr><td>TemplateMonster Социальные каналы v1.2.3</td>
+<td>displayRightColumn</td>
+<td>4</td>
+</tr><tr><td>Блок многоуровневой навигации v2.1.3</td>
+<td>displayLeftColumn</td>
+<td>1</td>
+</tr><tr><td>Лидеры продаж v1.8.0</td>
+<td>displayLeftColumn</td>
+<td>2</td>
+</tr><tr><td>Блок CMS (контент) v2.1.1</td>
+<td>displayLeftColumn</td>
+<td>3</td>
+</tr><tr><td>Блок производителей v1.4.0</td>
+<td>displayLeftColumn</td>
+<td>4</td>
+</tr><tr><td>Моя учетная запись v1.4.0</td>
+<td>displayLeftColumn</td>
+<td>5</td>
+</tr><tr><td>Новые товары v1.10.0</td>
+<td>displayLeftColumn</td>
+<td>6</td>
+</tr><tr><td>Payment logos block. v0.4.0</td>
+<td>displayLeftColumn</td>
+<td>7</td>
+</tr><tr><td>Блок скидки v1.3.0</td>
+<td>displayLeftColumn</td>
+<td>8</td>
+</tr><tr><td>Блок пунктов выдачи v1.3.0</td>
+<td>displayLeftColumn</td>
+<td>9</td>
+</tr><tr><td>Блок поставщиков v1.2.0</td>
+<td>displayLeftColumn</td>
+<td>10</td>
+</tr><tr><td>Блок тегов v1.3.0</td>
+<td>displayLeftColumn</td>
+<td>11</td>
+</tr><tr><td>Блок просмотренных товаров v1.3.0</td>
+<td>displayLeftColumn</td>
+<td>12</td>
+</tr><tr><td>Конфигуратор шаблона v2.1.1</td>
+<td>displayLeftColumn</td>
+<td>13</td>
+</tr><tr><td>TM HTML Content v1.1</td>
+<td>displayLeftColumn</td>
+<td>14</td>
+</tr><tr><td>TemplateMonster Социальные каналы v1.2.3</td>
+<td>displayLeftColumn</td>
+<td>15</td>
+</tr><tr><td>Конфигуратор шаблона v2.1.1</td>
+<td>displayHome</td>
+<td>1</td>
+</tr><tr><td>Facebook block v1.4.0</td>
+<td>displayHome</td>
+<td>2</td>
+</tr><tr><td>Новое на главной странице v2.0.1</td>
+<td>displayHome</td>
+<td>3</td>
+</tr><tr><td>Custom CMS information block v1.6.0</td>
+<td>displayHome</td>
+<td>4</td>
+</tr><tr><td>TM HTML Content v1.1</td>
+<td>displayHome</td>
+<td>5</td>
+</tr><tr><td>TM Category Products v0.1.3</td>
+<td>displayHome</td>
+<td>6</td>
+</tr><tr><td>TemplateMonster Социальные каналы v1.2.3</td>
+<td>displayHome</td>
+<td>7</td>
+</tr><tr><td>Блок быстрого поиска v1.7.0</td>
+<td>displayTop</td>
+<td>1</td>
+</tr><tr><td>Главное горизонтальное меню v2.2.3</td>
+<td>displayTop</td>
+<td>2</td>
+</tr><tr><td>Блок информации о пользователе v0.4.0</td>
+<td>displayTop</td>
+<td>3</td>
+</tr><tr><td>Ненайденные страницы v1.5.0</td>
+<td>displayTop</td>
+<td>4</td>
+</tr><tr><td>Ключевые слова поисковой машины v1.4.0</td>
+<td>displayTop</td>
+<td>5</td>
+</tr><tr><td>TM Mega Menu v1.6.0</td>
+<td>displayTop</td>
+<td>6</td>
+</tr><tr><td>TM HTML Content v1.1</td>
+<td>displayTop</td>
+<td>7</td>
+</tr><tr><td>Блок списков избранного v1.3.1</td>
+<td>displayTop</td>
+<td>8</td>
+</tr><tr><td>Конфигуратор шаблона v2.1.1</td>
+<td>displayFooter</td>
+<td>1</td>
+</tr><tr><td>Блок рассылки v2.3.1</td>
+<td>displayFooter</td>
+<td>2</td>
+</tr><tr><td>Блок CMS (контент) v2.1.1</td>
+<td>displayFooter</td>
+<td>3</td>
+</tr><tr><td>Блок ""Моя учетная запись"" в футере v1.6.0</td>
+<td>displayFooter</td>
+<td>4</td>
+</tr><tr><td>Блок контактной информации v1.2.0</td>
+<td>displayFooter</td>
+<td>5</td>
+</tr><tr><td>Блок социальных сетей v1.2.1</td>
+<td>displayFooter</td>
+<td>6</td>
+</tr><tr><td>Блок многоуровневой навигации v2.1.3</td>
+<td>displayFooter</td>
+<td>7</td>
+</tr><tr><td>Обработка данных статистики v1.5.0</td>
+<td>displayFooter</td>
+<td>8</td>
+</tr><tr><td>TM HTML Content v1.1</td>
+<td>displayFooter</td>
+<td>9</td>
+</tr><tr><td>TemplateMonster Olark Chat v1.0.2</td>
+<td>displayFooter</td>
+<td>10</td>
+</tr><tr><td>TemplateMonster Информационная рассылка v1.1.0</td>
+<td>displayFooter</td>
+<td>11</td>
+</tr><tr><td>TemplateMonster Социальные каналы v1.2.3</td>
+<td>displayFooter</td>
+<td>12</td>
+</tr><tr><td>Рекомендуемые товары на главной v1.8.0</td>
+<td>displayHomeTab</td>
+<td>1</td>
+</tr><tr><td>Новые товары v1.10.0</td>
+<td>displayHomeTab</td>
+<td>2</td>
+</tr><tr><td>Лидеры продаж v1.8.0</td>
+<td>displayHomeTab</td>
+<td>3</td>
+</tr><tr><td>Блок скидки v1.3.0</td>
+<td>displayHomeTab</td>
+<td>4</td>
+</tr><tr><td>TM Category Products v0.1.3</td>
+<td>displayHomeTab</td>
+<td>5</td>
+</tr><tr><td>Рекомендуемые товары на главной v1.8.0</td>
+<td>displayHomeTabContent</td>
+<td>1</td>
+</tr><tr><td>Новые товары v1.10.0</td>
+<td>displayHomeTabContent</td>
+<td>2</td>
+</tr><tr><td>Лидеры продаж v1.8.0</td>
+<td>displayHomeTabContent</td>
+<td>3</td>
+</tr><tr><td>Блок скидки v1.3.0</td>
+<td>displayHomeTabContent</td>
+<td>4</td>
+</tr><tr><td>TM Category Products v0.1.3</td>
+<td>displayHomeTabContent</td>
+<td>5</td>
+</tr><tr><td>Слайдшоу на Вашей главной странице v1.6.0</td>
+<td>displayTopColumn</td>
+<td>1</td>
+</tr><tr><td>Конфигуратор шаблона v2.1.1</td>
+<td>displayTopColumn</td>
+<td>2</td>
+</tr><tr><td>TM HTML Content v1.1</td>
+<td>displayTopColumn</td>
+<td>3</td>
+</tr><tr><td>TM Category Products v0.1.3</td>
+<td>displayTopColumn</td>
+<td>4</td>
+</tr><tr><td>Слайдер продуктов v1.2.3</td>
+<td>displayTopColumn</td>
+<td>5</td>
+</tr><tr><td>Блок информации о пользователе v0.4.0</td>
+<td>displayNav</td>
+<td>1</td>
+</tr><tr><td>TemplateMonster Search v1.0.5</td>
+<td>displayNav</td>
+<td>2</td>
+</tr><tr><td>Корзина покупателя v1.6.0</td>
+<td>displayNav</td>
+<td>3</td>
+</tr><tr><td>TemplateMonster Header Account Block v1.1.1</td>
+<td>displayNav</td>
+<td>4</td>
+</tr><tr><td>Блок валют v0.4.0</td>
+<td>displayNav</td>
+<td>5</td>
+</tr><tr><td>Language block v1.5.0</td>
+<td>displayNav</td>
+<td>6</td>
+</tr><tr><td>Блок контактов v1.4.0</td>
+<td>displayNav</td>
+<td>7</td>
+</tr><tr><td>TM HTML Content v1.1</td>
+<td>displayNav</td>
+<td>8</td>
+</tr></tbody></table><h3>2. Configuring images</h3>
+<p>In PrestaShop you can use predefined image dimensions for product images, category images, manufacturers etc.</p>
+<p>For example, images of the <strong>'home'</strong> dimensions are usually used for the category listing product images, <strong>'large'</strong> for main product image on the product info page.</p>
+<p>To configure product image dimensions, open your PrestaShop admin panel, go to <strong>Preferences &gt; Images</strong> and set the image dimensions as displayed below:</p>
+<table class=""table table-bordered table-hover""><tbody><tr><th>Picture</th><th>Width (px)</th><th>Height (px)</th></tr><tr><td>small_default</td>
+<td>98</td>
+<td class=""presta_center"">122</td>
+</tr><tr><td>medium_default</td>
+<td>125</td>
+<td class=""presta_center"">155</td>
+</tr><tr><td>home_default</td>
+<td>500</td>
+<td class=""presta_center"">620</td>
+</tr><tr><td>large_default</td>
+<td>800</td>
+<td class=""presta_center"">993</td>
+</tr><tr><td>thickbox_default</td>
+<td>1000</td>
+<td class=""presta_center"">1241</td>
+</tr><tr><td>category_default</td>
+<td>270</td>
+<td class=""presta_center"">335</td>
+</tr><tr><td>scene_default</td>
+<td>520</td>
+<td class=""presta_center"">189</td>
+</tr><tr><td>m_scene_default</td>
+<td>161</td>
+<td class=""presta_center"">58</td>
+</tr><tr><td>tm_home_default</td>
+<td>500</td>
+<td class=""presta_center"">620</td>
+</tr><tr><td>tm_large_default</td>
+<td>800</td>
+<td class=""presta_center"">993</td>
+</tr><tr><td>tm_small_default</td>
+<td>98</td>
+<td class=""presta_center"">122</td>
+</tr><tr><td>tm_cart_default</td>
+<td>80</td>
+<td class=""presta_center"">99</td>
+</tr><tr><td>tm_medium_default</td>
+<td>125</td>
+<td class=""presta_center"">155</td>
+</tr><tr><td>tm_thickbox_default</td>
+<td>1000</td>
+<td class=""presta_center"">1241</td>
+</tr><tr><td>tm_category_default</td>
+<td>270</td>
+<td class=""presta_center"">335</td>
+</tr><tr><td>cart_default</td>
+<td>80</td>
+<td class=""presta_center"">99</td>
+</tr></tbody></table><h3>3. Page layout settings</h3>
+<p>In Prestashop you can activate or deactivate sidebars for subpages, featured in table.</p>
+<p>To configure layout, open your PrestaShop admin panel, go to <strong>Preferences &gt; Themes<strong> &gt; Advanced settings</strong></strong>.</p>
+<table class=""table table-bordered table-hover""><tbody><tr><th>Meta</th><th>Left Column</th><th>Right Column</th></tr><tr><td>Best sales</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Contact us</td>
+<td></td>
+<td></td>
+</tr><tr><td>index</td>
+<td></td>
+<td></td>
+</tr><tr><td>Manufacturers</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>New products</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Forgot your password</td>
+<td></td>
+<td></td>
+</tr><tr><td>Prices drop</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Sitemap</td>
+<td></td>
+<td></td>
+</tr><tr><td>Suppliers</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Address</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Addresses</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Login</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Cart</td>
+<td></td>
+<td></td>
+</tr><tr><td>Discount</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Order history</td>
+<td></td>
+<td></td>
+</tr><tr><td>Identity</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>My account</td>
+<td></td>
+<td></td>
+</tr><tr><td>Order follow</td>
+<td></td>
+<td></td>
+</tr><tr><td>Credit slip</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Order</td>
+<td></td>
+<td></td>
+</tr><tr><td>Search</td>
+<td></td>
+<td></td>
+</tr><tr><td>Stores</td>
+<td></td>
+<td></td>
+</tr><tr><td>Order</td>
+<td></td>
+<td></td>
+</tr><tr><td>Guest tracking</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Order confirmation</td>
+<td></td>
+<td></td>
+</tr><tr><td>product</td>
+<td></td>
+<td></td>
+</tr><tr><td>category</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>cms</td>
+<td></td>
+<td></td>
+</tr><tr><td>module-cheque-payment</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-cheque-validation</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-bankwire-validation</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-bankwire-payment</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>Products Comparison</td>
+<td></td>
+<td></td>
+</tr><tr><td>module-cronjobs-callback</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-smartblog-archive</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-smartblog-category</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-smartblog-details</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-smartblog-search</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-smartblog-tagpost</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-tmsearch-search</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-blockwishlist-mywishlist</td>
+<td>+</td>
+<td></td>
+</tr><tr><td>module-blockwishlist-view</td>
+<td>+</td>
+<td></td>
+</tr></tbody></table></div>
+<div class=""clearfix""></div>
+</div>";pages-configuration
+7;1;6;1;0;Warranty;"Guarantee & after-sales service";"Warranty,Guarantee,after-sales service,Warranty page";"<h1 style=""text-align:center;"">Guarantee &amp;<br />after-sales service</h1>
+<p class=""border_bottom"" style=""text-align:center;"">The assortment of our store product is guaranteed for two years from the date of purchase, subject to normal usage conditions and adherence to the instructions for use recommended by the manufacturer. In the event that the product needs to be repaired during this guarantee period, the repair will be undertaken by our after-sales technicians providing that: the product has not been subjected to shock, immersion, etc. the problem has not been caused by inappropriate handling, fair wear and tear or failure to maintain the product (e.g. clogging); the product has not been repaired in any way by any after-sales service other than that of our store or been interfered with by any person not approved by the seller; the product has not been modified in any way from its original condition.</p>
+<h2 class=""icon material-design-double126"" style=""text-align:center;"">What products are provided with the warranty?</h2>
+<ul class=""list-3 border_bottom row countBox""><li class=""col-sm-6"">
+<h4>Products Purchased at Our Store</h4>
+<p>We guarantee the highest quality of the products purchased at our store. Our sales managers keep record of all the orders you place. If you are not satisfied with the quality of your purchase, you can turn to our warranty service and they will settle the issue.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Products with Available Paid Check</h4>
+<p>When you pay for the product you have chosen at our store, you get the check. It’s an important document, so please save it until the end of guarantee period. Products with available paid checks will free you from headaches in case of warranty case.</p>
+</li>
+<li class=""col-sm-6"" style=""clear:left;"">
+<h4>Products with Not Damaged Original Packing</h4>
+<p>All products bought at our store are delivered to you in the original packing. Please save it till the end of warranty period because if you decide to return the item for some reason, it should have the original packing that is not damaged in any way.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Not Damaged Products</h4>
+<p>If the products are not damaged in some or other way, they are liable to warranty. So, please, try not to drop, submerge them into liquids, tear or disassemble them. Just turn to our warranty service managers for help and they will answer all your questions as to the return and repair policy.</p>
+</li>
+<li class=""col-sm-6"" style=""clear:left;"">
+<h4>Products that Were Not Repaired By Third Parties</h4>
+<p>If the products you return to our store have not been repaired by the third parties, they are liable to warranty. Don’t go to the street corner repairing office that is close to your house. Talk to our warranty technicians first, they are here to help you with any problem you may face.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Products that Were Not Used Longer than their Warranty Period</h4>
+<p>You have the right to return the product within 14 days since its receipt. Contact our service center via telephone, email or online chat. You will get all necessary instructions on how to deal with the issue. We promise to handle your claim quickly and make you happy with your bargain.</p>
+</li>
+</ul><h2 class=""icon material-design-front17"" style=""text-align:center;"">Where to apply for warranty service?</h2>
+<ul class=""list-3 border_bottom row""><li class=""col-sm-6"">
+<h4>Service Center in Your City</h4>
+<p>If our service center is available in your city, you may turn there for warranty repairing, refund or product replacement. Service manager will inspect the item you wish to repair/return or replace and do everything possible to settle your issue as quickly as possible.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Onsite/In-Home Service</h4>
+<p>In some cases it is possible to invite a service manager right to your office, home or settle the issue right on site. Parts and labor repair where labor is provided onsite at your place of business or home are covered by us according to the warranty policy.</p>
+</li>
+<li class=""col-sm-6"" style=""clear:left;"">
+<h4>International Warranty Service (IWS)</h4>
+<p>We render this kind of service specifically for customers who are travelling internationally and require a critical warranty repair. In such cases our free international warranty line operator will connect you to the service center available at your current location.</p>
+</li>
+</ul><h2 class=""icon material-design-problems"" style=""text-align:center;"">In what cases the warranty is not provided?</h2>
+<ul class=""list-3 border_bottom disk row""><li class=""col-sm-6"">
+<h4>Damages from wear and tear</h4>
+<p>Please note that our guarantee does not cover product damages that may have resulted from normal wear and tear of the product you have purchased from our store.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Misuse or abuse</h4>
+<p>If the product purchased at our store has visual traces of misuse or abuse, this case is also not covered by guarantee services. The store can render repairing services at your expense.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Not branded items</h4>
+<p>This warranty does not apply to any items not branded by our company even if packaged or sold with our original products. Such kind of products may have the benefit of a manufacturer's warranty.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Expired warranty period</h4>
+<p>The warranty begins on the date of purchase on the purchase receipt. In case the purchase receipt is not provided, the warranty period is considered to have started 6 months after the date of manufacturing on the product or as derived from the serial number of the product.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Unauthorized repairing services</h4>
+<p>When the product is being repaired by unauthorized service organizations, engineers or technicians the buyer loses his/her right for free warranty service.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Expired consumables lifetime</h4>
+<p>Each consumable has its own guaranteed lifetime. When the lifecycle of consumables are expired, the warranty becomes not valid; they should be changed at the buyer’s expense.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>The usage of unauthorized spares or consumables</h4>
+<p>When the product has failed due to the use of unauthorized spare parts or the consumables, the store doesn’t take any responsibility for the incident. Use only authorized spares if you want to keep your warranty valid.</p>
+</li>
+<li class=""col-sm-6"">
+<h4>Natural disaster</h4>
+<p>Natural disaster is a force majeure the seller can’t prevent. So, when the product has failed from the natural disaster, the store is not obliged to refund or repair it.</p>
+</li>
+<li class=""col-sm-6"" style=""clear:left;"">
+<h4>Cleaning the product</h4>
+<p>If the product failed during cleaning or removing the foreign material from its surface or inside of it, the store won’t render the buyer free warranty services as the failure happened from the buyer’s fault.</p>
+</li>
+</ul><h2 class=""icon material-design-refresh55"" style=""text-align:center;"">Change and Return</h2>
+<p style=""text-align:center;""><br />If you are not satisfied with your purchase on arrival you have fourteen (14) days starting from the delivery date to return or exchange the article. What should you do? Login to our website. Once logged inside your private area, please access the orders menu. Inside the orders list, please seek the order you want to make the return and click the button ""Return items"". Select the product you want to return within the order. Select return cause within the pull-down menu. Select the type of return: money refund or change for another size or color. If the return is a size change or color change, please select the model you want to make the change from the pull-down menu that appears on the screen when selecting the option. Click the ""Confirm Return"" button. You started the return process! Wait for the confirmation email; it will explain your following steps.</p>";warranty
+8;1;7;1;0;FAQs;"If you need help, we have a list of frequently asked questions and answers.";faqs;"<h1 style=""text-align:center;"">FAQs</h1>
+<p class=""border_bottom"" style=""text-align:center;"">If you need help, we have a list of frequently asked questions and answers. We strive to give you the best buying experience possible. Click a question below to view the answer.</p>
+<ul class=""list-accordion""><li>
+<h3 class=""accordion_current"">How can I change something in my order?</h3>
+<ul class=""list-3 disk accordion_content""><li class=""text"">If you need to change something your order, please contact us immediately. We usually process orders within 2-4 hours, and once we have processed your order, we will be unable to make any changes.</li>
+<li>
+<h4>Change order</h4>
+</li>
+<li>
+<h4>Cancel order online</h4>
+</li>
+<li>
+<h4>Cancel order using automated system</h4>
+</li>
+<li>
+<h4>Unable to cancel order</h4>
+</li>
+</ul></li>
+<li>
+<h3 class=""accordion_current"">How can I pay for my order?</h3>
+<p class=""accordion_content"">We accept Visa, MasterCard, and American Express credit and debit cards for your convenience.<br /><br /></p>
+</li>
+<li>
+<h3 class=""accordion_current"">Can I track my order?</h3>
+<p class=""accordion_content"">Yes, you can! After placing your order you will receive an order confirmation via email. Each order starts production 24 hours after your order is placed. Within 72 hours of you placing your order, you will receive an expected delivery date. When the order ships, you will receive another email with the tracking number and a link to trace the order online with the carrier.<br /><br /></p>
+</li>
+<li>
+<h3 class=""accordion_current"">Can I return an item?</h3>
+<p class=""accordion_content"">Please visit our Returns &amp; Exchanges page for more information.<br /><br /></p>
+</li>
+<li>
+<h3 class=""accordion_current"">How long will my order take to be delivered?</h3>
+<p class=""accordion_content"">Delivery times will depend on your location. Once payment is confirmed your order will be packaged. Delivery can be expected within 10 business days.<br /><br /></p>
+</li>
+<li>
+<h3 class=""accordion_current"">Do I need an account and what are the benefits?</h3>
+<p class=""accordion_content"">It's not required to create an account. But, having an account provides easier checkout, the ability to create and send a wishlist, and a customized shopping experience.<br /><br /></p>
+</li>
+</ul>";faqs
+9;1;8;1;0;Support;"Support 24/7";;"<h1 style=""text-align:center;"">Support 24/7</h1>
+<div class=""border_bottom"" style=""text-align:center;"">Our support service is available 24 hours a day. We aim to provide quick and efficient customer help. Here you can get information on technical support, legal questions plus everything you need to know about shopping on our site. Our dedicated, experienced and friendly support staff of problem solvers will happily help you out, whatever your issue. Just fill in a support ticket, drop us an email or start an online chat</div>
+<h2 style=""text-align:center;"">Have a question?</h2>
+<ul class=""iconBox row""><li class=""col-xs-6 col-md-3""><a class=""fa fa-book"" href=""index.php?id_cms=8&amp;controller=cms"">knowledge base</a></li>
+<li class=""col-xs-6 col-md-3""><a class=""fa fa-comments"" href=""index.php?fc=module&amp;module=smartblog&amp;controller=category"">Community forum</a></li>
+<li class=""col-xs-6 col-md-3""><a class=""fa fa-question-circle"" href=""index.php?id_cms=7&amp;controller=cms"">24/7 ticket support</a></li>
+<li class=""col-xs-6 col-md-3""><a class=""fa fa-envelope"" href=""index.php?controller=contact"">Contact us</a></li>
+</ul><div class=""border_bottom"" style=""text-align:center;"">Our support service provides help all year round and allows you to receive assistance concerning any technical issues or questions on your product. You can report your problem or create a support ticket. Our staff is available 24 hours a day, seven days a week! We will contact you personally as soon as possible.</div>";support

@@ -1,0 +1,12 @@
+"Address ID";"Active (0/1)";Alias*;"Customer ID";"Manufacturer ID";"Supplier ID";"Warehouse ID";"Country ID";"State ID";Country;Company;Lastname;Firstname;"Address 1";"Address 2";Postcode;City;Other;Phone;Phone_mobile;Vat_number;DNI;Deleted
+1;1;"Mon adresse";1;0;0;0;8;0;France;"My Company";DOE;John;"16, Main street";"2nd floor";75002;"Paris ";;0102030405;;;;0
+2;1;Teleflora;0;0;1;0;21;32;"United States";Fashion;supplier;supplier;"767 Fifth Ave.";;10153;"New York";;"(212) 336-1440";;;;0
+3;1;manufacturer;0;1;0;0;21;32;"United States";Fashion;manufacturer;manufacturer;"767 Fifth Ave.";;10154;"New York";;"(212) 336-1666";;;;0
+7;1;"Pro Flowers";0;0;3;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+8;1;Interflora;0;0;6;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+9;1;1-800-flowers.com;0;0;2;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+10;1;serenataflowers.com;0;0;7;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+11;1;fromyouflowers.com;0;0;5;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+12;1;"Appleyard ";0;0;8;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+13;1;"Gabriela Wakeham";0;0;4;0;21;0;"United States";;supplier;supplier;"767 Fifth Ave.";;;"New York";;;;;;0
+14;1;"My address";4;0;0;0;21;7;"United States";Company;Ivanov;Ivan;Niko;;16662;Backerwood;;33243434434;2342341344343;;;0

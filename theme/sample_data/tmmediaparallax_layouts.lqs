@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS `ps_tmmediaparallax_layouts`;
+CREATE TABLE `ps_tmmediaparallax_layouts` (
+  `id_layout` int(11) NOT NULL AUTO_INCREMENT,
+  `id_parent` int(11) NOT NULL,
+  `fade` int(11) NOT NULL,
+  `speed` float DEFAULT NULL,
+  `sort_order` int(11) NOT NULL,
+  `type` varchar(100) DEFAULT NULL,
+  `inverse` int(11) NOT NULL,
+  `offset` int(11) NOT NULL,
+  `image` varchar(100) DEFAULT NULL,
+  `video_mp4` varchar(100) DEFAULT NULL,
+  `video_webm` varchar(100) DEFAULT NULL,
+  `active` int(11) NOT NULL,
+  `video_link` varchar(100) DEFAULT NULL,
+  `specific_class` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id_layout`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmmediaparallax_layouts */
+INSERT INTO `ps_tmmediaparallax_layouts` VALUES
+('2','1','0','0.3','1','1','0','0','img/cms/parallax-home-img1_1.jpg',NULL,NULL,'1',NULL,NULL);

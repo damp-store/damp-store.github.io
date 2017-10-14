@@ -1,0 +1,174 @@
+#tm-products-slider {
+	clear:both;	
+}
+#tm-products-slider .bx-wrapper {
+	margin:0 auto;	
+}
+#product-slider {
+	margin:0;
+	padding:0;
+}
+
+#product-slider li {
+	width:100%;
+	overflow:hidden;
+	padding:15px 0;
+	background:#f9f9f9;
+	border:1px solid #ccc;
+}
+
+#product-slider li .slide-image {
+}
+
+#product-slider li .on-sale {
+	text-transform:uppercase;
+	color:#f00;
+	display:inline-block;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+#product-slider li .product-name {
+	margin:0 0 20px 0;	
+}
+
+#product-slider li .product-price {
+	padding-bottom:15px;
+	font-size:20px;
+	color:#333;
+}
+
+#product-slider li .old-product-price {
+	text-decoration:line-through;
+	color:#bbb;	
+}
+
+#product-slider li .product-price-reduction {
+	color:#f00;
+	border:1px solid #f00;
+	display:inline-block;
+	padding:2px 3px;
+	font-style:italic;
+}
+
+#product-slider li .product-features {
+	background:#fff;
+	border:1px solid #ccc;
+	width:300px;
+	padding:10px;
+	margin-bottom:10px;
+}
+
+#product-slider li .product-features small {
+	display:block;
+	padding-bottom:5px;
+}
+#tm-products-slider .bx-wrapper .bx-controls {
+	margin:10px 0;
+	overflow:hidden;
+}
+#tm-products-slider .bx-wrapper .bx-pager {
+	overflow:hidden;
+	border:1px solid #ccc;
+	float:left;
+	margin-right:5px;
+	position:static;
+	padding:0;
+	width:auto;	
+}
+
+#tm-products-slider .bx-wrapper .bx-pager-item {
+	float:left;	
+}
+
+#tm-products-slider .bx-wrapper .bx-pager-link {
+	float:left;
+	display:block;
+	padding:0;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	text-indent:0;
+	border-radius:0;
+	margin:0;
+	background:none;
+}
+
+#tm-products-slider .bx-wrapper .bx-pager-link.active, #tm-products-slider .bx-wrapper .bx-pager-link:hover {
+	color:#fff;
+	background:#333;
+	text-decoration:none;
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-auto {
+	float:left;
+	position:static;
+	width:auto;
+}
+#tm-products-slider .bx-wrapper .bx-controls-auto-item {
+	float:left;	
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-auto-item a {
+	display:block;
+	width:22px;
+	height:22px;
+	text-align:center;
+	background:none;
+	text-indent:0;
+	margin:0 auto;
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-auto-item a:before {
+	font-family:'FontAwesome';	
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-auto-item a.bx-start:before {
+	content:'\f04b';	
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-auto-item a.bx-stop:before {
+	content:'\f04c';	
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-auto-item a.active {
+	color:#333;	
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-direction {
+	float:left;
+	border:1px solid #ccc;
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-direction a {
+	display:block;
+	float:left;
+	height:20px;
+	line-height:20px;
+	padding:0 5px;	
+	position:static;
+	margin:0;
+	background:none;
+	text-indent:0;
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-direction a.bx-prev {
+	border-right:1px solid #ccc;
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-direction a.bx-prev:before {
+	content:'\f053';
+	font-size:10px;
+}
+#tm-products-slider .bx-wrapper .bx-controls-direction a.bx-next:before {
+	content:'\f054';
+	font-size:10px;
+}
+
+#tm-products-slider .bx-wrapper .bx-controls-direction a:hover {
+	background:#333;
+}
+#tm-products-slider .bx-wrapper .bx-controls-direction a:hover:before {
+	color:#fff;
+}

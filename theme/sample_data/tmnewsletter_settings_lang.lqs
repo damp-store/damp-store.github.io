@@ -1,0 +1,22 @@
+DROP TABLE IF EXISTS `ps_tmnewsletter_settings_lang`;
+CREATE TABLE `ps_tmnewsletter_settings_lang` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_tmnewsletter` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `content` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmnewsletter_settings_lang */
+INSERT INTO `ps_tmnewsletter_settings_lang` VALUES
+('1','1','1','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('2','2','1','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('3','1','2','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('4','2','2','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('5','1','3','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('6','2','3','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('7','1','4','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('8','2','4','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('9','1','5','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.'),
+('10','2','5','Subscribe to our newsletter','Enter your email address to receive all news, updates on new arrivals, special offers and other discount information.');

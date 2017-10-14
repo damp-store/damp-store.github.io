@@ -1,0 +1,32 @@
+DROP TABLE IF EXISTS `ps_tmmegamenu_lang`;
+CREATE TABLE `ps_tmmegamenu_lang` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_item` int(11) NOT NULL,
+  `id_lang` int(11) NOT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `badge` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=utf8;
+
+/* Scheme for table ps_tmmegamenu_lang */
+INSERT INTO `ps_tmmegamenu_lang` VALUES
+('26','4','1','Indoor Plants',NULL),
+('27','4','2','Indoor Plants',NULL),
+('28','4','3','Indoor Plants',NULL),
+('29','4','4','Indoor Plants',NULL),
+('30','4','5','Indoor Plants',NULL),
+('31','6','1','Flower Bouquets ',NULL),
+('32','6','2','Flower Bouquets ',NULL),
+('33','6','3','Flower Bouquets ',NULL),
+('34','6','4','Flower Bouquets ',NULL),
+('35','6','5','Flower Bouquets ',NULL),
+('36','7','1',' Orchids',NULL),
+('37','7','2',' Orchids',NULL),
+('38','7','3',' Orchids',NULL),
+('39','7','4',' Orchids',NULL),
+('40','7','5',' Orchids',NULL),
+('41','5','1','Outdoor Plants           ',NULL),
+('42','5','2','Outdoor Plants           ',NULL),
+('43','5','3','Outdoor Plants           ',NULL),
+('44','5','4','Outdoor Plants           ',NULL),
+('45','5','5','Outdoor Plants           ',NULL);

@@ -1,0 +1,45 @@
+h4.list-title {
+	text-transform:uppercase;
+	background:#2A303D;
+	color:#fff;
+	padding:5px;
+	margin:0;
+}
+.slides-list {
+	padding:0;
+	margin:0;
+	list-style:none;
+	border:1px solid #ccc;
+	border-bottom:none;	
+}
+.slides-list li {
+	border-bottom:1px solid #ccc;
+	padding:0px 10px 0 0;
+	vertical-align:middle;
+	background:#fff;
+}
+.slides-list li.no-slides {
+	padding:5px 10px;
+	border-bottom:1px solid #ccc;
+	position:static !important;
+}
+.slides-list li span {
+	line-height:30px;
+}
+.slides-list li .sort_order {
+	display:block;
+	float:left;
+	padding:0 10px 1px;
+	text-transform:uppercase;
+	color:#fff;
+	background:#2A303D;
+}
+.slides-list li .item_name {
+	display:inline-block;
+	padding-left:10px;
+	max-width:350px;
+}
+button.list-action-enable {
+	margin:4px 0 0 0;
+	display:inline-block;	
+}
