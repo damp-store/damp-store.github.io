@@ -9,28 +9,90 @@
 	 <meta keywords="Damp Store, Damp, Damp Shop">
 	 <meta charset="UTF-8">
 	 <title>Damp Store</title>	
+
+  <link rel="stylesheet" type="text/css" href="wicart.css" />
+  <link rel="stylesheet" type="text/css" href="themes/theme1.css" />
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" ></script>
+  <!-- WI-JQ-HEADER -->
+  <script src="wicart.js"  type="text/javascript" ></script>
+  <!-- WI-HEADER -->
 	</head>
 	<body class="homepage">
-	 <nav id="top_nav">
-    <div class="menu">
-	 	 <ul class="menu-main">
-			   <li>
+     
+   <script>
+var priceList = {
+  "001" : {"id" : "001", "subid" : {}, "name" : "IPhone 5", "price" : "20500"},
+  "002" : {"id" : "002", "subid" : {}, "name" : "IPad MINI", "price" : "500"}
+  };
+</script> 
+<script>
+var cart;
+var config;
+var wiNumInputPrefID;
+/* WI-GLOBAL-VARS */
+$(document).ready(function(){  
+    cart = new WICard("cart");
+    config = {'clearAfterSend':true, 'showAfterAdd':false};
+    
+    cart.init("basketwidjet", config);
+    /* WI-MODULES */
+    
+    
+}); 
+document.addEventListener('visibilitychange', function(e) {
+cart.init("basketwidjet", config);
+}, false);
+</script>
+
+<nav class="containerrr">
+  <ul class="top-menu ">
+			   <li class="underline">
 			  	  <a href="index.php" class="current" >Главная</a>
 			   </li>
-			   <li>
+			   <li class="underline">
 			  	  <a href="no-sidebar.html">Новости</a>
 			   </li>
-			   <li>
-			 	    <a href="#" >Товары</a>
-			   </li>
-			   <li>
+			  <li class="underline"><a href="goods.html" class="dropdown">Товары</a>
+      <ul class="submenu">
+        <li><h3>Аккаунты</h3>
+          <ul>
+            <li><a href="">Аккаунты Steam</a></li>
+            <li><a href="">Аккаунты Origin</a></li>
+            <li><a href="">Аккаунты Xbox</a></li>
+            <li><a href="">Аккаунты PSN</a></li>
+            <li><a href="">Другие</a></li>
+          </ul>
+        </li>
+        <li><h3>Ключи</h3>
+          <ul>
+           <li><a href="">Rockstar Games</a></li>
+            <li><a href="">Electronic Arts</a></li> 
+           
+            <li><a href="">Activision</a></li>
+            <li><a href="">Ubisoft</a></li>
+            <li><a href="">Другие</a></li>
+        
+          </ul>
+        </li>
+        <li>
+     
+        </li>
+
+      </ul>
+    </li>
+			   <li class="underline">
 			  	  <a href="#">Отзывы</a>
 			   </li>
-			   <li>
-			  	  <a href="#">Информация</a>
-			   </li>
+			     <li>
+            <a href="#">Информация</a>
+         </li>
+
 		  </ul>
-      </div>
+     <div class="cart">
+<div class="prices"><a href="#" id="basketwidjet" onclick="cart.showWinow('bcontainer', 1)"></a></div>
+
+<div style="text-align: center"><a href="#!" onclick="cart.clearBasket()">Очистить корзину</a></div>
+</div>
 		</nav>
 		<div id="page-wrapper">
 				<div id="header-wrapper">
@@ -73,14 +135,7 @@
                       
 									</div>
 								</div>
-                <!--!
-             		<div class="acount" style=" float: left;  background: #f39c12; width: 590px; height: 500px;border-radius: 5px;">
-                         
-                </div>
-                    <div class="acount" style="margin-left: 20px;border-radius: 5px; float: left;  background: #f39c12; width: 590px; height: 500px;">
-                         
-                </div>
-                !-->
+             
 							</section>
 					</div>
 				</div>
@@ -92,34 +147,65 @@
 										<a class="s12 s12-tov" href="#">Товары</a>
 									</div>
                   <div id="slider"> 
+                             
                     <div class="slide">
-                      <img  style=" border:3px solid #f39c12;"   width="1200" height="600" src="images/batl1.jpg" alt="Image Description">
-                    </div> 
-                    <div class="slide">
-                      <img  style="border:3px solid #f39c12;"   width="1200" height="600" src="images/watch2.jpg" alt="Image Description">
-                    </div>
-                    <div>
-                      <img  style="border:3px solid #f39c12;"   width="1200" height="600" src="images/d2.jpg" alt="Image Description">
-                    </div>
-                    <div>
-                      <img  style="border:3px solid #f39c12;"   width="1200" height="600" src="images/csgo.jpg" alt="Image Description">
+                      <img  style="border:3px solid #f39c12;"   src="images/pubg.jpg" alt="Image Description">
+                     x
+
                     </div>
                     <div class="slide">
-                      <img  style=" border:3px solid #f39c12;"   width="1200" height="600" src="images/wedmak.jpg" alt="Image Description">
+                      <img  style="border:3px solid #f39c12;"    src="images/pubg.jpg" alt="Image Description">
                     </div>
-		                <div  class="slide">
-                      <img  style="border:3px solid #f39c12;" src="images/batlfront.jpg" alt="Image Description"  width="1200" height="600">
+                    <div class="slide">
+                      <img  style=" border:3px solid #f39c12; border-right: 2px solid #f39c12 !important;"    src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div class="slide">
+                      <img  style=" border:3px solid #f39c12;"    src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div class="slide">
+                      <img  style="border:3px solid #f39c12;" src="images/pubg.jpg" alt="Image Description"  >
                     </div>       
-		               
-		                
-		                <div class="slide">
-                      <img  style="	border:3px solid #f39c12;"   width="1200" height="600" src="images/fafa2017.png" alt="Image Description">
+                   
+                    
+                    <div class="slide">
+                      <img  style=" border:3px solid #f39c12;"  src="images/pubg.jpg" alt="Image Description">
                     </div>
-		                <div class="slide">
-                      <img  style="	border:3px solid #f39c12;"   width="1200" height="600" src="images/tom.png" alt="Image Description">
+                    <div  class="slide">
+                      <img  style=" border:3px solid #f39c12;"   src="images/pubg.png" alt="Image Description">
                     </div>
-		               
-                  </div>
+                   
+                  </div>   
+                   <div  id="sliderr"> 
+                    <div  class="slide">
+                      <img  style=" border:3px solid #f39c12;"    src="images/pubg.jpg" alt="Image Description">
+                     
+                    </div> 
+                    <div  class="slide">
+                      <img  style="border:3px solid #f39c12;"   src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div class="slide">
+                      <img  style="border:3px solid #f39c12;"    src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div class="slide">
+                      <img  style="border:3px solid #f39c12;"    src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div  class="slide">
+                      <img  style=" border:3px solid #f39c12;"    src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div   class="slide">
+                      <img  style="border:3px solid #f39c12;" src="images/pubg.jpg" alt="Image Description"  >
+                    </div>       
+                   
+                    
+                    <div  class="slide">
+                      <img  style=" border:3px solid #f39c12;"  src="images/pubg.jpg" alt="Image Description">
+                    </div>
+                    <div class="slide">
+                      <img  style=" border:3px solid #f39c12;"   src="images/pubg.png" alt="Image Description">
+                    </div>
+                   
+                  </div> 
+                 
                   <div class="tabs">
                     <input class="maps" id="tab1" type="radio" name="tabs" checked>
                     <label class="kaps kaps1 s12" for="tab1">ПОПУЛЯРНОЕ</label>
@@ -136,12 +222,14 @@
                             <img  src="images/bf1.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
-
+                          <a href="#win1" class="  detail-link"></a>
+                          <a class="detail-links" id="wicartbutton_002" onclick="cart.addToCart(this, '002', priceList['002'])"></a>
+                            
+                            
                         </div>
                         <div class="product-list" >
                           <h3>Battlefield 1</h3>
-                          <div class="price">&#8381; 300</div>
+                          <div class="price">&#8381; 300</div>    
                         </div>
                       </div>
 
@@ -151,9 +239,10 @@
                             <img src="images/bfr.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <div class="detail-linkk">
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
-                        </div>
+                           <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
+                          
+                        
                         </div>
                         <div class="product-list">
                           <h3>Battlefront</h3>
@@ -167,7 +256,8 @@
                             <img src="images/bf4.png">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                          <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
                         <div class="product-list">
@@ -183,7 +273,8 @@
                               <img src="images/wd1.jpg">
                               <div class="shadow"></div>
                             </a>
-                            <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                           <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                           </div>
                           <div class="product-list">
@@ -199,7 +290,8 @@
                             <img  src="images/wd2.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
                         </div>
                         <div class="product-list">
                           <h3>Watch Dogs 2</h3>
@@ -214,7 +306,8 @@
                               <img  src="images/f4.jpg">
                               <div class="shadow"></div>
                             </a>
-                            <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                            <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                           </div>
                           <div class="product-list">
@@ -230,7 +323,8 @@
                             <img   src="images/w3.png">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                        <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
                         <div class="product-list">
@@ -246,7 +340,8 @@
                               <img   src="images/GTA.jpg">
                               <div class="shadow"></div>
                             </a>
-                            <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                             <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
                         	   
                           </div>
                           <div class="product-list">
@@ -262,7 +357,8 @@
                             <img  src="images/t2.png">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                           <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
 
@@ -279,7 +375,8 @@
                             <img   src="images/t1.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                           <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
 
@@ -296,7 +393,8 @@
                           <img  src="images/r7.png">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -311,7 +409,8 @@
                           <img   src="images/o2.jpg">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -326,7 +425,8 @@
                           <img   src="images/lt.jpg">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                        <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -342,7 +442,8 @@
                           <img  src="images/pdd.jpg">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                        <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list" >
@@ -357,7 +458,8 @@
                           <img src="images/cs.png">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -372,7 +474,8 @@
                           <img src="images/цфк.png">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                        <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -388,7 +491,8 @@
                             <img src="images/wd1.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                          <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
                         <div class="product-list">
@@ -404,7 +508,8 @@
                           <img  src="images/wd2.jpg">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                        <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -420,7 +525,8 @@
                             <img  src="images/f4.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                           <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
                         <div class="product-list">
@@ -436,7 +542,8 @@
                           <img   src="images/w3.png">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -452,7 +559,8 @@
                             <img   src="images/GTA.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                       <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
                       	   
                         </div>
                         <div class="product-list">
@@ -468,7 +576,8 @@
                           <img  src="images/t2.png">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
                       </div>
 
                       <div class="product-list">
@@ -484,7 +593,8 @@
                             <img   src="images/t1.jpg">
                             <div class="shadow"></div>
                           </a>
-                          <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                          <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                         </div>
 
@@ -501,7 +611,8 @@
                           <img  src="images/r7.png">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -516,7 +627,8 @@
                           <img   src="images/o2.jpg">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                         <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -531,7 +643,8 @@
                           <img   src="images/lt.jpg">
                           <div class="shadow"></div>
                         </a>
-                        <a class="detail-link" href="" title="Быстрый просмотр"></a>
+                      <a class="detail-link" href="#win2"></a>
+                              <a href="" class="  detail-links"></a>
 
                       </div>
                       <div class="product-list">
@@ -684,9 +797,106 @@
 
 
 
-
+    
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 3000) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+
+
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 2150 }, 600);
+return false;
+});
+ 
+});
+</script>
+    <a href="#" class="scrollup"> Наверх</a>
+    <script type="text/javascript">
+      function show(state){
+
+          document.getElementById('window').style.display = state;      
+          document.getElementById('wrap').style.display = state;      
+      }
+    </script>
+    <div onclick="show('none')" id="wrap"></div>
+
+          <!-- Само окно-->
+      <div id="window">
+            
+             <!-- Картинка крестика-->
+        <img class="close" onclick="show('none')" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/close.png">
+          
+            <!-- Картинка ipad'a-->
+        <img  style="margin: 20px 0 0 50px;" src="http://sergey-oganesyan.ru/wp-content/uploads/2014/01/ipad.png">
+        
+      
+        
+      </div>
+
+ 
+    
+ <a href="#x" class="overlay" id="win1"></a>
+ 
+        <div class="popup">
+            <div class="pic-left">
+                <img src="images/batlа1.jpg" alt="F">
+            </div>
+          
+      <p style="text-align: center;">
+        <a class="button button-green" href="images/batlа1.jpg">Купить</a>
+      </p>
+      <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <a href="#x" class="overlayy" id="win2"></a>
+          <div class="popupp">
+            <div class="pic-left">
+                <img src="images/btf.jpg" alt="F">
+            </div>
+            
+      <p style="text-align: center;">
+        <a class="button button-green" href="images/btf.jpg">Купить</a>
+      </p>
+      <a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        <div class="v">
+<div><img class="im" src="img/iphone5.png" /></div>
+Цена: <span class="wicartprice" id="wicartprice_001">20500</span> Руб.</p>
+<!-- WI-VETRINE[001] -->  
+<button id="wicartbutton_001" onclick="cart.addToCart(this, '001', priceList['001'])">Купить</button>
+</div>
+
+<div class="v">
+<div><img class="im" src="img/ipad.png" /></div>
+Цена: <span class="wicartprice" id="wicartprice_002">10500</span> Руб.</p>
+<!-- WI-VETRINE[002] -->  
+<button id="wicartbutton_002" onclick="cart.addToCart(this, '002', priceList['002'])">Купить</button>
+</div>
+
+<!---Форма для магазина-->
+<div id="order" class="popup">
+<a href="#" onclick="cart.closeWindow('order', 0)" style="float:right">[закрыть]</a>
+<h4>Введите ваши контактные данные</h4>
+
+<form id="formToSend">
+<input id="fio" type="text" placeholder="Ваши фамилия и имя"  class="" />
+<input id="city" type="text" placeholder="Город"  class="text-input"/>
+<input id="phone" type="text" placeholder="Контактный телефон" class="text-input"/>
+<input id="email" type="text" placeholder="Электронная почта" class="" />
+<br>
+<textarea id="question" placeholder="Адрес"></textarea>
+</form>
+<button onclick="cart.sendOrder('formToSend,overflw,bsum');" href="#">Отправить заказ</button>
+</div>
 	</body>
 </html>
